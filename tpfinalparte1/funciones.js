@@ -1,4 +1,4 @@
-  function overMouse(px, py, tamx, tamy) {
+function overMouse(px, py, tamx, tamy) {
   return mouseX>px && mouseX<px+tamx && mouseY>py && mouseY<py+tamy;
 }
 //Funcion para fondo
@@ -43,7 +43,7 @@ function BotonN(px, py, tamx, tamy, radio, texto) {
   if (overMouse(px, py, tamx, tamy)) {
     fill(255);
   } else {
-  fill(143, 143, 170, 185);
+    fill(143, 143, 170, 185);
   }
   noStroke();
   rect(px, py, tamx, tamy, radio);
@@ -69,7 +69,7 @@ function BotonT(px, py, tamx, tamy, radio, texto) {
   if (overMouse(px, py, tamx, tamy)) {
     fill(255);
   } else {
-  fill(240, 212, 140, 185);
+    fill(240, 212, 140, 185);
   }
   noStroke();
   rect(px, py, tamx, tamy, radio);
