@@ -1,7 +1,7 @@
 let imagen=[];
 let estado=0;
 let cambio=1;
-let fondo, magic, triste;
+let fondo, magic;
 let escobi, creditos, sonidon, sonidoff;
 let frases=['Ella es Cecy Elliot, una bruja de 17 años con un don único: puede dejar su cuerpo y habitar en animales, personas e incluso el viento. Sueña con experimentar el amor humano, pero su familia se lo prohíbe ya que pone en riesgo sus poderes.', 'Una noche de primavera, Cecy encuentra la oportunidad de vivir lo prohibido. Descubre a Ann, una joven del pueblo, a través de ella, podría experimentar lo que significa amar.', 'Cecy se queda sola y triste. Comprende que nunca podrá conocer el amor humano.', 'Dentro del cuerpo de Ann, Cecy conoce a Tom, un joven que trabaja en la granja. Ann lo ignora, pero Cecy se enamora de él.',
   'Tom nota a Ann diferente, por lo que decide invitarla a al baile del pueblo. Cecy estalla de felicidad, pero Ann no quiere ir.', 'Cecy se enoja porque Ann no quiere cumplirle el sueño y jura venganza.', '¿Cómo comportarse en el baile? Disimular: (mostrar algo de su esencia, pero sin traicionar a Ann) o actuar como Cecy: (expresar sentimientos que Ann nunca haría).', 'Cecy vive una noche especial con Tom, pero entiende que él no la ama a ella, sino a Ann.', 'Con el corazón roto, abandona el cuerpo de Ann. Cecy se enamora, pero aún sueña con que Tom la ame a ella, no al cuerpo que habita.', 'Cecy expresa emociones que Ann nunca tendría. Tom percibe que algo extraño esta sucediendo...',
@@ -14,7 +14,6 @@ function preload() {
 
   fondo = loadSound('data/magicalFondo.mp3');
   magic = loadSound('data/magicSound.mp3');
-  triste = loadSound('data/sadness-and-sorrow.mp3');
 
   for (let i=0; i<15; i++) {
     imagen[i]=loadImage('data/'+i+'.png');
