@@ -1,7 +1,7 @@
-function overMouse(px, py, tamx, tamy) {
+  function overMouse(px, py, tamx, tamy) {
   return mouseX>px && mouseX<px+tamx && mouseY>py && mouseY<py+tamy;
 }
-//Fundion para fondo
+//Funcion para fondo
 function fondoboton(imagen, pxt, pyt, tamx, tamy, radio, texto, anchoc, altoc) {
   image(imagen, 0, 0);
   fill(240, 206, 228, 170);
